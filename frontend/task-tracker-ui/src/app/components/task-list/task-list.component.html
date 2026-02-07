@@ -1,0 +1,11 @@
+<div class="task-card" *ngFor="let task of tasks">
+  <div class="task-info">
+    <h4>{{ task.title }}</h4>
+    <span class="status {{ task.status }}">{{ task.status }}</span>
+  </div>
+
+  <div class="actions">
+    <button class="next" (click)="nextStatus(task)">Next</button>
+    <button class="delete" (click)="deleteTask(task._id)">Delete</button>
+  </div>
+</div>

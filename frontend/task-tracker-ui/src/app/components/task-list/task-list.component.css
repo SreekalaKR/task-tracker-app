@@ -1,0 +1,51 @@
+.task-card {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-info h4 {
+    margin: 0;
+  }
+  
+  .status {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  .TODO {
+    background: #9e9e9e;
+  }
+  
+  .IN_PROGRESS {
+    background: #f9a825;
+  }
+  
+  .DONE {
+    background: #2e7d32;
+  }
+  
+  .actions button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+  
+  .next {
+    background: #0288d1;
+    color: white;
+  }
+  
+  .delete {
+    background: #d32f2f;
+    color: white;
+  }
+  
